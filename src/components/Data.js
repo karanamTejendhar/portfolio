@@ -19,7 +19,7 @@ export var DATA = [
     {
       id:2,
       imgtitle: 'My Portfolio',
-      src: require('../images/ricknmorty.png'),
+      src: require('../images/porffolio.png'),
       alt:'My Portfolio',
       name:'My Portfolio',
       skill:["React", "Responsive Web","CSS", "npm","React Hooks"],
