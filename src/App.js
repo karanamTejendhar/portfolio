@@ -18,8 +18,10 @@ export default function App() {
     <Router>
         <Nav />
         <Switch>
-        
-          <Route path="/" exact component={Homepage}>
+          <Route path={process.env.PUBLIC_URL + '/Home'} exact component={Home}>
+            <Home />
+          </Route> 
+          <Route path="/Home" exact component={Homepage}>
             <Home />
           </Route>
           <Route path="/Intro" exact component={Intro}>
@@ -31,7 +33,7 @@ export default function App() {
           <Route path="/Project" exact component={Project}>
             <Project />
           </Route>
-          <Redirect to={"/"} />
+          <Redirect to={"/Home"} />
         </Switch>
       </Router>
   );
