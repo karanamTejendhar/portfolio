@@ -1,5 +1,5 @@
 import React  from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 //components
 import Nav from './components/Nav';
@@ -31,6 +31,7 @@ export default function App() {
           <Route path="/Project" exact component={Project}>
             <Project />
           </Route>
+          <Redirect to={"/"} />
         </Switch>
       </Router>
   );
