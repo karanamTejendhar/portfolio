@@ -27,7 +27,7 @@ export default function Project() {
               className="items"
             >
               {/* <Link to={`/Project/${item.id}`}> */}
-                <a className="linkWrapper" href="/">
+                <a className="linkWrapper" href={item.href}>
                 <ul>
                     <li className="itemname">{item.name}</li>
                     <li className="listStyle">
