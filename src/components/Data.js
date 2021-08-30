@@ -32,4 +32,38 @@ export var DATA = [
         "Can man add and delete characters. State management is done using redux"
       ]
     },
+    {
+      id:3,
+      imgtitle: 'Attendance App Proxynt.',
+      src: require('../images/attendanceapp.jpg'),
+      alt:'Attendance App',
+      name:'Attendance App',
+      skill:["Software Engineering", "UML", "JDK8", "Mysql", "Android Studio"],
+      href:"",
+      repo:"https://github.com/karanamTejendhar/attendance-app",
+      desc2:[
+        "This Attendance app software is developed for everyone who wants to save time in taking attendance.",
+        "it actually works on some unique code which will be decided by the user,who wants to take attendance.",
+        "both professor and student side are available"
+      ]
+    },
+
+    {
+      id:4,
+      imgtitle: 'Team presentations',
+      src: require('../images/team.png'),
+      alt:'Team presentations',
+      name:'Team works',
+      skill:["Technical discussions"],
+      href:"",
+      repo:"https://github.com/karanamTejendhar/Team-projects",
+      desc2:[
+        "Content delivery networks. (Distributed Systems course project)",
+        "Emotion recognition. (Artificial Intelligence course project)",
+        "Social Networks vs Covid (Social networks)",
+        "Image Captioning using sequence encoding and decoding(Deep Learning project)",
+      ]
+    },
+
+
 ]

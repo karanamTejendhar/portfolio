@@ -13,7 +13,7 @@ class Footer extends Component {
             <div className="copyright">
               <span><a href="karanamtejendhar@gmail.com" target="_blank" rel="noopener noreferrer"><EmailIcon fontSize="large" /></a></span>
               <span><a href="https://github.com/karanamTejendhar" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ fontSize: 30 }} /></a></span>
-              <span><a href="linkedin.com/in/karanam-tejendhar-a7779a16b" target="_blank" rel="noopener noreferrer"><LinkedInIcon fontSize="large" /></a></span>
+              <span><a href="https://www.linkedin.com/in/karanam-tejendhar-a7779a16b/" target="_blank" rel="noopener noreferrer"><LinkedInIcon fontSize="large" /></a></span>
             </div>
           </div>
         </div>
