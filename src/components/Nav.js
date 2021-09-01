@@ -36,7 +36,7 @@ class Nav extends Component {
         <div className="nav_wrapper">
             <div className="logo">
                 <NameBounce>
-                    <NavLink to="/Home">
+                    <NavLink to="/">
                         <span>Karanam</span><br></br>
                         <span>Tejendhar</span>
                     </NavLink>
