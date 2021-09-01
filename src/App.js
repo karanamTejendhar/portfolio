@@ -18,22 +18,22 @@ export default function App() {
     <Router>
         <Nav />
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/portfolio/Home'} exact component={Homepage}>
+          <Route path={process.env.PUBLIC_URL + '/Home'} exact component={Homepage}>
             <Home />
           </Route> 
-          <Route path="/portfolio/Home" exact component={Homepage}>
+          {/* <Route path="/portfolio/Home" exact component={Homepage}>
             <Home />
-          </Route>
-          <Route path="/portfolio/Intro" exact component={Intro}>
+          </Route> */}
+          <Route path={process.env.PUBLIC_URL +"/Intro"} exact component={Intro}>
             <Intro />
           </Route>
-          <Route path="/portfolio/About" component={About}>
+          <Route path={process.env.PUBLIC_URL +"/About"} component={About}>
             <About />
           </Route>
-          <Route path="/portfolio/Project" exact component={Project}>
+          <Route path={process.env.PUBLIC_URL +"/Project"} exact component={Project}>
             <Project />
           </Route>
-          <Redirect to={"/portfolio/Home"} />
+          <Redirect to={process.env.PUBLIC_URL +"/Home"} />
         </Switch>
       </Router>
   );
