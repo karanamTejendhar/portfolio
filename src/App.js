@@ -18,7 +18,7 @@ export default function App() {
     <Router>
         <Nav />
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/portfolio/'} exact component={Homepage}>
+          <Route path={process.env.PUBLIC_URL + '/portfolio/Home'} exact component={Homepage}>
             <Home />
           </Route> 
           <Route path="/portfolio/Home" exact component={Homepage}>
@@ -50,7 +50,7 @@ const Home = () => (
 //   "build": "react-scripts build",
 //   "test": "react-scripts test",
 //   "predeploy": "npm run build",
-//   "deploy": "gh-pages -d buil
+//   "deploy": "gh-pages -d build
 
 
 //in index.js make register to unregister 
