@@ -18,7 +18,7 @@ export default function App() {
     <Router>
         <Nav />
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/Home'} exact component={Home}>
+          <Route path={process.env.PUBLIC_URL + '/Home'} exact component={Homepage}>
             <Home />
           </Route> 
           <Route path="/Home" exact component={Homepage}>
